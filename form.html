@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>form</title>
+	</head>
+	<body style="padding:5px">
+	<p>You may fill up the form for further updates</p>
+	Name:<input type="text"><br/><br/>
+	DOB:<input type="date" min="2000-01-01" ><br/><br/>
+	<input type="email" placeholder="Email id"><br/><br/>
+	Gender:<br/>
+	Male:<input type="radio" name="Gender" value="male"/>
+	Female:<input type="radio" name="Gender" value="female"/>
+	Others:<input type="radio" name="Gender" value="others"/><br/><br/>
+	<textarea raws="7" placeholder="Address"></textarea><br/><br/>
+	State:
+	<select>
+		<option>      </option>
+		<option>kerala</option>
+		<option>karnataka</option>
+		<option>tamilnadu</option>
+		<option>goa</option>
+		<option>gujarat</option>
+		<option>Haryana</option>
+		<option>Andra pradesh</option>
+	</select><br/><br/>
+	District:
+	<input list="districts" name="Districts"/>
+	<datalist id="districts">
+		<option value="Kasaragod"/>
+		<option value="Kannur"/>
+		<option value="Wayanadu"/>
+		<option value="Kozhikode"/>
+		<option value="Malappuram"/>
+		<option value="Palakkad"/>
+		<option value="Thrissur"/>
+		<option value="Ernakulam"/>
+		<option value="idukki"/>
+		<option value="Kottayam"/>
+		<option value="Alappuzha"/>
+		<option value="Pathanamthitta"/>
+		<option value="Kollam"/>
+		<option value="Tiruvanantapuram"/><br/>
+		</datalist><br/><br/>
+	Languages known:<br/>
+	Malayalam:<input type="checkbox" value="mal"/>
+	English:<input type="checkbox" value="eng" checked/>
+	Hindi:<input type="checkbox" value="hin"/><br/><br/>
+	<input type="submit" value="SUBMIT"/><br/><br/>
+	Notifications on more updates will send on your mail id.<br/>Thank you.
+	</body>
+</html>
